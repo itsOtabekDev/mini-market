@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ml {
+    margin-left: 40px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.logo a {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.logo span {
+    color: #FF6600;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.here {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.here_left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+.here_left h1 {
+    font-size: 30px;
+    font-weight: 700;
+    width: 341px;
+    line-height: 31.32px;
+    text-transform: ;
+}
+
+.here_left p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 17px;
+    color: #000000;
+}
+
+
+.header_footer {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+}
+
+.btn1 a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #17171766;
+    width: 165px;
+    height: 31px;
+    border-radius: 14.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 a:hover {
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+    background-color: #FF6600;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn2 button {
+    font-size: 35px;
+    color: #979292;
+    border: transparent;
+    background-color: transparent;
+    width: 51.26px;
+    height: 51.26px;
+    border-radius: 100%;
+}
+
+.btn2 button:active {
+    border: 1px solid #FF6600;
+    transition: 0.1s ease-in;
+}
